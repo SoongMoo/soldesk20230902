@@ -1,0 +1,12 @@
+startDan = int(input("시작 단을 입력해주세요. : "))
+endDan = int(input("마지막 단을 입력해주세요. : "))
+startGop = int(input("시작 곱을 입력해주세요. : "))
+endGop = int(input("마지막 곱을 입력해주세요. : "))
+dan = startDan
+while dan <= endDan:
+    gop = startGop
+    while gop <= endGop:
+        #print(f"{dan} * {gop} = {dan * gop}")
+        print("%d * %d = %d" % (dan, gop, dan * gop))
+        gop += 1
+    dan += 1
